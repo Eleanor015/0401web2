@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+    body {
+        max-width: 800px;
+        margin: 0 auto;
+        font-size: 10px;
+        background-image: url(./bike.jpg);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-attachment: fixed;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.6)),url(./bike.jpg);
+        height: 50vh;
+    }   
+
+    header{
+        width: 827px;
+        height: 110px;
+        color:black;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: antiquewhite; 
+        background-image: url(./cat.webp);
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: auto;
+
+    }
+
+    h1 { 
+        color:black;
+        font-size: 2rem;
+    }
+
+    ul {
+        background-color: #fff;
+        border-radius: 15px ;
+        padding-left: 35px;
+    }
+
+    .nav {
+        margin-top: 30px;
+        display: flex;
+        width: 216px;
+    }
+
+    .nav-list {
+        list-style: none;
+        margin-right: 30px;
+    }
+
+    nav ul li a:link, nav ul li a:active, nav ul li a:visited {
+        color:grey;
+        text-decoration: none;
+        font-size: 1.2rem;
+
+    }
+
+    nav ul li a:hover {
+        background-color: #fff;
+        color: goldenrod;
+    }
+
+    .content-area { /*文章-寬*/
+        display: flex;
+        width: 847px;
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 20%,rgba(255, 255, 255, 0.3)80%);
+    }
+
+
+    h3 {
+        font-size: 20px;
+        background-color: blanchedalmond;
+        width: 100px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;  /*水平置中*/
+        /* align-content: center; */ /*垂直置中*/
+        
+    }
+
+    p {
+        font-size: 16px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-left: 25px;
+        padding-top: 17px;
+        
+    }
+
+    .limg {
+        display: flex;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    audio {
+        display: flex;
+        margin-top: 40px;
+        margin-left: 95px;
+    }
+    .dotted {
+        border-right: dotted rgb(247, 246, 243);
+        border-left: dotted silver;
+    }
+
+    article {
+        flex: 2;
+        min-height: 600px;
+        padding-top: 20px;
+        padding-right: 20px;
+        margin: 0px;
+        /* border-left: 2px botted #aaa; */
+    }
+
+    aside {
+        flex: 1.5;
+        min-height: 600px;
+        padding-top: 20px;
+        padding-right: 20px;
+        margin: 0px;
+        /* border-left: 2px botted #aaa; */
+        /* border-right: 2px botted #ccc; */
+    }
+
+
+    .aside-list {
+        margin-top: 2px;
+        margin-right: 30px;
+        list-style:none;
+    }
+
+
+    aside ul li a:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    aside ul li a:visited {
+        color: purple;
+    }
+
+    aside ul li a:hover {
+        color: green;
+    }
+
+    aside ul li a:active {
+        color: violet
+    }   
+
+    /* a:hover, a:visited, a:link, a:active {
+        text-decoration: none;
+    } */
+
+    .h3-1 {
+        width: 150px;
+        /* display: content; */
+    }
+
+    .ul-1 {
+        margin: 0;
+        background-color: #fff;
+        margin-top: 15px;
+        border-radius: 10px ;
+        padding-left: 15px;
+        height: 50px;
+
+
+    }
+
+    ul li {
+        font-size: 12px;
+    }
+/* 
+    .dotted-1 {
+        /* border-right: dotted silver; 
+       
+        
+    }*/
+
+    iframe {
+        margin-top: 20px;
+    }
+
+    footer {
+        width: 807px;
+        height: 40px;
+        padding: 20px;
+        background: rgb(189, 214, 139);
+    }
+
+    h4{
+      font-size: 15px; 
+        
+    }
+
+
